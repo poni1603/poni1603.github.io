@@ -1,0 +1,85 @@
+*{
+	padding: auto;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: rgba(56, 71, 18, 1);;
+}
+.main{
+	background-color: #9cb082;
+	display: flex;
+	width: 95%;
+	max-width: 1000px;
+	margin: auto;
+	box-shadow: 0 0 0 10px 1px rgba(0, 0, 0, 0.3);
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.item{
+	max-width: 490px;
+	max-height: 265px;
+	height: calc(95vw / 16 * 9);
+	width: calc(90vw - 10px);
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+}
+.heading{
+	font-size: 50px;
+	text-align: center;
+	width: 100%;
+	font-family: 'Press Start 2P', cursive;
+	color: rgba(56, 71, 18, 1);
+}
+.img_link{
+	display: block;
+	opacity: 0.6;
+	transition: opacity 0.6s ease, transform 0.6s ease-in, box-shadow 0.3s ease-out;
+	margin: 5px;
+}
+.element {
+	display: block;
+	padding: 35px 200px 50px 200px;
+	justify-content: center;
+	align-items: center;
+}
+h2.text_qustion{
+	font-family: zarubka;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 15px;
+	position: relative;
+	color: whitesmoke;
+}
+.btn{
+	display: inline-flex;
+	background: rgba(56, 71, 18, 1);
+	color: whitesmoke;
+	padding: 1rem 1.5rem;
+	text-decoration: none;
+	border-radius: 3px;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}
+.btn:hover{
+	opacity: 1;
+	background: #d0de73;
+	color: rgba(56, 71, 18, 1);
+}
+.footer {
+	position: relative;
+	padding: 3px 0;
+	background: rgba(56, 71, 18, 1);
+	color: whitesmoke;
+	font-size: 15px;
+	text-align: center;
+	font-family: Roboto;
+	font-weight: cursive;
+}
